@@ -1,28 +1,29 @@
+
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/Components/Pre";
-import Navbar from "./Components/Navbar";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
-import Projects from "./Components/Projects/Projects";
-import Footer from "./Components/Footer";
-import Resume from "./Components/Resume/ResumeNew";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
-  const [load, upadateLoad] = useState(true);
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Projects from "./Components/Projects/Projects";
+import Resume from "./Components/Resume/Resume";
+
+
+function App() {
+
+  // show cool loading animation
+  const [load, upadateLoad] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
-    }, 1200);
-
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -31,13 +32,12 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/project" exact element={<Projects />} />
-          <Route path="/about" exact element={<About />} />
-          <Route path="/resume" exact element={<Resume />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/project" component={Projects} />
+          <Route path="/about" component={About} />
+          <Route path="/resume" component={Resume} />
+        </Switch>
         <Footer />
       </div>
     </Router>
