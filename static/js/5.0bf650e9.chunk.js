@@ -1,2 +1,0 @@
-(this["webpackJsonpadinbsolomon.github.io"]=this["webpackJsonpadinbsolomon.github.io"]||[]).push([[5],{426:function(i,o,t){"use strict";t.r(o),o.default=t.p+"static/media/digital-pathology.c603aefc.png"}}]);
-//# sourceMappingURL=5.0bf650e9.chunk.js.map

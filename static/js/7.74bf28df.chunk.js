@@ -1,2 +1,0 @@
-(this["webpackJsonpadinbsolomon.github.io"]=this["webpackJsonpadinbsolomon.github.io"]||[]).push([[7],{428:function(t,i,o){"use strict";o.r(i),i.default=o.p+"static/media/software-patterns.c3a009be.png"}}]);
-//# sourceMappingURL=7.74bf28df.chunk.js.map
