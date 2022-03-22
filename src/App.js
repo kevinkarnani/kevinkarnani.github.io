@@ -11,7 +11,6 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import ScrollToTop from "./Components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -32,7 +31,6 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <ScrollToTop />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/project" exact element={<Projects />} />
