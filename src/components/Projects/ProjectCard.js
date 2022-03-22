@@ -8,7 +8,7 @@ function ProjectCard(props) {
   const [img, setImg] = useState("");
 
   const load_img = (imgPath) => {
-    import(`../../Assets/Projects/${imgPath}`).then(
+    import(`../../Assets/Images/Projects/${imgPath}`).then(
       (img) => {setImg(img.default)}
     );
   }

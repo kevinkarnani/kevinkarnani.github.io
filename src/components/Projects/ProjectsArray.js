@@ -3,7 +3,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 
 import ProjectCard from "./ProjectCard";
-import projectList from "../../Assets/projectList";
+import projectList from "../../Assets/Data/projectList";
 
 function ProjectsArray() {
 
