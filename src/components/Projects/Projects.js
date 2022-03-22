@@ -1,49 +1,38 @@
+
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCard";
+
 import Particle from "../Particle";
+import ProjectCard from "./ProjectCard";
+import projectList from "../../Assets/projectList";
 
 function Projects() {
+
+  console.log(projectList);
+
+  const make_project_card = (project, key) => {
+    console.log(project);
+    return <Col md={4} className="project-card"><ProjectCard
+      key={key}
+      imgPath={project.imgPath}
+      title={project.title}
+      description={project.description}
+      link={project.link}
+    /></Col>
+  };
+
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          What I've been <strong className="purple">working </strong> on
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          I love talking about my projects! Feel free to email me with any comments or questions.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={"chatify.png"}
-              isBlog={false}
-              title="Chatify"
-              description="chatify description"
-              link="https://github.com/soumyajit4419/Chatify"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={"leaf.png"}
-              isBlog={false}
-              title="Plant AI"
-              description="plant ai description"
-              link="https://github.com/soumyajit4419/Plant_AI"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={"codeEditor.png"}
-              isBlog={false}
-              title="Editor.io"
-              description="editor.io description"
-              link="https://github.com/soumyajit4419/Editor.io"
-            />
-          </Col>
+          {projectList.projects.map((project, index) => make_project_card(project, index))}
         </Row>
       </Container>
     </Container>
