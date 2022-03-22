@@ -5,22 +5,28 @@
 
 const projectList = { "projects" : [
     {
-        "title": "Chatify",
-        "imgPath": "chatify.png",
-        "description": "chatify description",
-        "link": "https://www.google.com/"
+        "title": "Digital Pathology",
+        "imgPath": "digital-pathology.png",
+        "description": "Project Lead for 7-person Senior Project building and applying containerized deep learning infrastructure for medical diagnoses with AWS, Python, and PyTorch.",
+        "link": "https://github.com/Digital-Pathology"
     },
     {
-        "title": "Chatify",
-        "imgPath": "chatify.png",
-        "description": "chatify description",
-        "link": "https://www.google.com/"
+        "title": "Advanced Software Design (SE 575)",
+        "imgPath": "software-patterns.png",
+        "description": "Coursework for Graduate-level Software Engineering course: applying design patterns to various case studies using Java.",
+        "link": "https://github.com/adinbsolomon/DrexelClasses"
     },
     {
-        "title": "Chatify",
-        "imgPath": "chatify.png",
-        "description": "chatify description",
-        "link": "https://www.google.com/"
+        "title": "Deep Learning (CS 615)",
+        "imgPath": "CS-615.png",
+        "description": "Development of a Deep Learning framework and application to a variety of challenges using Python.",
+        "link": "https://github.com/adinbsolomon/DrexelClasses"
+    },
+    {
+        "title": "Heavy Metal",
+        "imgPath": "heavy-metal.png",
+        "description": "6-month Freshman Design series project: Virtual Reality Mechasuit FPS using Unity3d, C#, SteamVR, HTC-Vive",
+        "link": "https://drive.google.com/file/d/1IoPEGahlgf1Fp-4G00tjaGABpd7f7KUv/view?usp=sharing"
     }
 ]}
 
