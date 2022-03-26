@@ -1,0 +1,17 @@
+{
+    "artificialDelayMilliseconds": 300,
+    "keepExistingTerminalsOpen": true,
+    "runOnStartup": true,
+    "terminals": [
+        {
+            "splitTerminals": [
+                {
+                    "name": "npm start",
+                    "commands": [
+                        "bash /workspaces/ritikghanshani.github.io/.devcontainer/login.sh"
+                    ]
+                }
+            ]
+        }
+    ]
+}
