@@ -2,7 +2,9 @@
 
 ### Developer Setup
 
-Clone this repo, then `cd` into it and run `npm install`. You should be able to see your changes as you make them when you serve using `npm start` from the repo's directory.
+This repo features a Visual Studio Code dev container which provides the developer with a containerized environment and automates build, deploy, and local development to maximize productivity. 
+
+Clone this repo, then `cd` into it and run `code .` or Open Visual Studio Code and Navigate to this folder. Click on the prompt for opening the folder in a dev container. That's it! Initial build will take care of installing all dependencies and the app should be automatically deployed to localhost on subsequent launches. 
 
 ### Adding your own content
 
