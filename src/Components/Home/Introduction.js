@@ -18,18 +18,18 @@ function Introduction() {
               Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              I love to work on big, long-term-focused projects, building tools for the project that exponentially improve the rate of development.
+              I love automation and enjoy the process of turning an idea into a tangible product through the process of iterative improvement and problem solving.
               <br />
               <br />
-              I'm fluent in <i><b className="purple"> Python, Java, and Javascript </b></i>, and love learning new languages and libraries.
+              I'm fluent in <i><b className="purple"> Python, Java, and Javascript </b></i>, and love working with Docker, Kubernetes, various CI/CD tools and Cloud Computing platforms. 
               <br />
               <br />
               My fields of interests are &nbsp;
               <i>
-                <b className="purple">Machine Learning </b> and
-                the theory and practice of{" "}
+                <b className="purple">Cloud Computing, DevOps </b> and
+                {" "}
                 <b className="purple">
-                  Software Engineering.
+                  Machine Learning.
                 </b>
               </i>
             </p>
