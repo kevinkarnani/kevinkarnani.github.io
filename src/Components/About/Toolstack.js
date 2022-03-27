@@ -1,13 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiPython,
-  DiGit,
-  DiAws
+  DiGit
 } from "react-icons/di";
 import { 
   SiPytorch, 
@@ -16,7 +14,15 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiJupyter,
+  SiKubernetes,
+  SiPostgresql,
+  SiFlask,
+  SiBitbucket,
+  SiGithubactions
 } from "react-icons/si";
+import {
+  FaAws
+} from "react-icons/fa";
 
 function Techstack() {
   return (
@@ -28,7 +34,7 @@ function Techstack() {
         <SiPytorch />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiAws />
+        <FaAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJava />
@@ -40,16 +46,22 @@ function Techstack() {
         <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiKubernetes />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
@@ -59,6 +71,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJupyter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithubactions />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBitbucket />
       </Col>
     </Row>
   );

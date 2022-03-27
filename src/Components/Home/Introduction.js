@@ -49,7 +49,7 @@ function Introduction() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/adinbsolomon"
+                  href="https://github.com/ritik-ghanshani"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -59,7 +59,7 @@ function Introduction() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/adinbsolomon/"
+                  href="https://www.linkedin.com/in/ritik-ghanshani"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -69,7 +69,7 @@ function Introduction() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:adinbsolomon@gmail.com"
+                  href="mailto:ritik.ghanshani@outlook.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

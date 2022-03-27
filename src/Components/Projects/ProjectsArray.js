@@ -6,9 +6,7 @@ import ProjectCard from "./ProjectCard";
 import projectList from "../../Assets/Data/projectList";
 
 function ProjectsArray() {
-
     const make_project_card = (project, key) => {
-        console.log(project);
         return <Col md={4} className="project-card"><ProjectCard
             key={key}
             imgPath={project.imgPath}
