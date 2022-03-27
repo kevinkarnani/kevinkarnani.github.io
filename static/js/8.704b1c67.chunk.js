@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[8],{429:function(t,p,o){"use strict";o.r(p),p.default=o.p+"static/media/pawnet.4036b7a3.png"}}]);
+//# sourceMappingURL=8.704b1c67.chunk.js.map
