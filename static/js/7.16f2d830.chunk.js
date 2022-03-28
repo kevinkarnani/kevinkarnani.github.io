@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[7],{427:function(t,o,p){"use strict";p.r(o),o.default=p.p+"static/media/glr.fdd25882.png"}}]);
+//# sourceMappingURL=7.16f2d830.chunk.js.map

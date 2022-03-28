@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[6],{426:function(t,o,i){"use strict";i.r(o),o.default=i.p+"static/media/digital-pathology.c603aefc.png"}}]);
+//# sourceMappingURL=6.50770ff6.chunk.js.map
