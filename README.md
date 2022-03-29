@@ -1,4 +1,4 @@
-# [ritik-ghanshani.github.io](ritik-ghanshani.github.io)
+# [ritik-ghanshani.github.io](https://ritik-ghanshani.github.io)
 
 ### Developer Setup
 
