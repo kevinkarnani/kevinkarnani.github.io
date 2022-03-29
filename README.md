@@ -1,4 +1,4 @@
-# adinbsolomon.github.io
+# ritik-ghanshani.github.io
 
 ### Developer Setup
 
