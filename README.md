@@ -1,4 +1,4 @@
-# [ritik-ghanshani.github.io](https://ritik-ghanshani.github.io)
+# [Kevin Karnani](https://kevinkarnani.github.io)
 
 ### Developer Setup
 
