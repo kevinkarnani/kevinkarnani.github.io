@@ -24,7 +24,7 @@ const projectList = { "projects" : [
     },
     {
         "title": "Rubiks Cube Solver (CS 380)",
-        "imgPath": "software-patterns.png",
+        "imgPath": "rubik.png",
         "description": "An optimized 2x2x2 Rubik's cube solving program that uses variations of BFS, DFS and AStar algorithms to provide a solution in under 0.01 seconds.",
         "link": "https://github.com/ritik-ghanshani/rubiks-cube-solver"
     },
