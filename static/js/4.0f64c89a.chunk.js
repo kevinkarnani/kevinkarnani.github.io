@@ -1,2 +1,0 @@
-(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[4],{431:function(i,t,o){"use strict";o.r(t),t.default=o.p+"static/media/rubik.png:Zone.31d6cfe0.Identifier"}}]);
-//# sourceMappingURL=4.0f64c89a.chunk.js.map

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[282],{9282:function(e,t,a){e.exports=a.p+"static/media/heavy-metal.3a1ed9dbaf4526e34983.png"}}]);

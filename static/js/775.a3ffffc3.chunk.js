@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[775],{8775:function(o,p,t){o.exports=t.p+"static/media/rubik.858012a6bbcfa634dafc.png"}}]);

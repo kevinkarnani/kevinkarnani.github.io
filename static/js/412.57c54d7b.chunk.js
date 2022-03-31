@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[412],{2412:function(e,i,o){e.exports=o.p+"static/media/rubik.png:Zone.31d6cfe0d16ae931b73c.Identifier"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[321],{3321:function(e,p,t){e.exports=t.p+"static/media/pawnet.4036b7a30f896050e591.png"}}]);

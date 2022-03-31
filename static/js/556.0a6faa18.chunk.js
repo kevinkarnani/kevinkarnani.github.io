@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[556],{5556:function(e,t,f){e.exports=f.p+"static/media/software-patterns.c3a009bea7f71f96ef81.png"}}]);
