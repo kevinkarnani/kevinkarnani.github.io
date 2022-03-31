@@ -18,7 +18,7 @@ function Introduction() {
               Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              I love automation and enjoy the process of turning an idea into a tangible product through the process of iterative improvement and problem solving.
+            I am an Aspiring Machine Learning Researcher who prioritizes maximizing efficiency, be it: leisurely activities, meeting deadlines, or developing relationships. More specifically, my passion lies in maximizing the efficiency in which we diagnose patients and save lives, which is why I wish to specialize in the areas of Health Intelligence and Clinical Imaging.
               <br />
               <br />
               I'm fluent in <i><b className="purple"> Python, Java, and Javascript </b></i>, and love working with Docker, Kubernetes, various CI/CD tools and Cloud Computing platforms. 
