@@ -9,7 +9,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeDownloadButton() {
 
-  let ResumeFile = "https://raw.githubusercontent.com/ritik-ghanshani/ritik-ghanshani-resume/main/Ritik_Ghanshani_Resume.pdf";
+  let ResumeFile = "https://raw.githubusercontent.com/kevinkarnani/KevinKarnaniResume2022/main/KevinKarnaniResume2021.pdf";
 
   return <Button variant="primary" href={ResumeFile} target="_blank">
     <AiOutlineDownload />

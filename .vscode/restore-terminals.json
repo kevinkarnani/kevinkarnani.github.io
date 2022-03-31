@@ -8,7 +8,7 @@
                 {
                     "name": "npm start",
                     "commands": [
-                        "bash /workspaces/ritik-ghanshani.github.io/.devcontainer/login.sh"
+                        "bash /workspaces/kevinkarnani.github.io/.devcontainer/login.sh"
                     ]
                 }
             ]
