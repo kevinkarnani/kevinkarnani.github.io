@@ -18,7 +18,7 @@ import Footer from "./Components/Footer";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
-import Resume from "./Components/Resume/Resume";
+import Resume from "./Components/Resume/ResumeNew";
 
 
 function App() {

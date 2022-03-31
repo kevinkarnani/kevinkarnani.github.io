@@ -21,15 +21,15 @@ function Introduction() {
             I am an Aspiring Machine Learning Researcher who prioritizes maximizing efficiency, be it: leisurely activities, meeting deadlines, or developing relationships. More specifically, my passion lies in maximizing the efficiency in which we diagnose patients and save lives, which is why I wish to specialize in the areas of Health Intelligence and Clinical Imaging.
               <br />
               <br />
-              I'm fluent in <i><b className="purple"> Python, Java, and Javascript </b></i>, and love working with Docker, Kubernetes, various CI/CD tools and Cloud Computing platforms. 
+              I'm fluent in <i><b className="purple"> Python, Java, and MATLAB </b></i>, and love working with PyTorch, TensorFlow and ML specific Cloud Computing platforms, like AWS Sagemaker. 
               <br />
               <br />
               My fields of interests are &nbsp;
               <i>
-                <b className="purple">Cloud Computing, DevOps </b> and
+                <b className="purple">Machine Learning, Computer Vision</b> and
                 {" "}
                 <b className="purple">
-                  Machine Learning.
+                  Artificial Intelligence
                 </b>
               </i>
             </p>
