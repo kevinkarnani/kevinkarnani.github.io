@@ -13,6 +13,13 @@
   }
 }
 
+.icontooltip {
+  max-width: 200px;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-transform: none;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

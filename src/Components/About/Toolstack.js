@@ -1,24 +1,18 @@
 import React from "react";
+import ReactTooltip from "react-tooltip";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiPython,
-  DiGit
+  DiApple,
+  DiGit,
+  DiMongodb
 } from "react-icons/di";
 import { 
-  SiPytorch, 
-  SiJava,
   SiDocker,
   SiLinux,
   SiVisualstudiocode,
   SiJupyter,
-  SiKubernetes,
-  SiPostgresql,
-  SiFlask,
-  SiBitbucket,
-  SiGithubactions
+  SiFirebase,
+  SiWindows
 } from "react-icons/si";
 import {
   FaAws
@@ -28,56 +22,38 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiVisualstudiocode data-tip="Visual Studio Code"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiJupyter data-tip="Jupyter Notebook"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaAws />
+        <DiGit data-tip="Git"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJava />
+        <SiDocker data-tip="Docker"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <FaAws data-tip="Amazon Web Services"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <DiMongodb data-tip="MongoDB"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiKubernetes />
+        <SiFirebase data-tip="Firebase"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiApple data-tip="Apple"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiLinux data-tip="Linux"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiWindows data-tip="Windows"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFlask />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGithubactions />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiBitbucket />
-      </Col>
+      <div className="icontooltip">
+        <ReactTooltip place="top" type="dark" effect="solid"/>
+      </div>
     </Row>
   );
 }
