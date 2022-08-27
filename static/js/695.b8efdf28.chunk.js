@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[695],{1695:function(e,o,p){e.exports=p.p+"static/media/vaporwave.92f286888d174059fb11.jpeg"}}]);
