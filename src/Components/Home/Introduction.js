@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiFillMail,
 } from "react-icons/ai";
+import { SiOrcid } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Introduction() {
@@ -65,6 +66,16 @@ function Introduction() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://orcid.org/0000-0002-3108-7941"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiOrcid />
                 </a>
               </li>
               <li className="social-icons">

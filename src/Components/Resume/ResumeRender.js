@@ -4,7 +4,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/kevinkarnani/KevinKarnaniResume2022/main/KevinKarnaniResume2021.pdf";
+  "https://raw.githubusercontent.com/kevinkarnani/KevinKarnaniResume2022/main/KevinKarnaniResume2022.pdf";
 
 function ResumeRender() {
 
