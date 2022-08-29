@@ -7,8 +7,14 @@ const projectList = { "projects" : [
     {
         "title": "Digital Pathology",
         "imgPath": "digital-pathology.png",
-        "description": "Machine Learning Lead Researcher for 7-person Senior Project implementing supervised deep learning infrastructure for medical diagnoses with PyTorch using a Docker pipeline deployed on AWS.",
+        "description": "Digital Pathology is a billion dollar industry where machine learning is used to diagnose diseases with digitized tissue slides as an input. This project is a proof of concept for a machine learning model deployed on AWS that can classify tissue slides into 3 categories: mild, moderate, and severe chronic sinusitis.",
         "link": "https://github.com/Digital-Pathology"
+    },
+    {
+        "title": "Biology Guided Neural Networks (BGNN)",
+        "imgPath": "detectron.png",
+        "description": "Metadata is key to applying machine learning to the vast collections of digitized biological specimens, but is often erroneous. We developed a system to automatically extract metadata from images of biological specimens.",
+        "link": "https://github.com/hdr-bgnn/drexel_metadata"
     },
     {
         "title": "CIFAR-10 Classification",
@@ -45,12 +51,6 @@ const projectList = { "projects" : [
         "imgPath": "software-patterns.png",
         "description": "A Survey and Test Generator written in Java featuring best design patterns like the Strategy, Bridge, Command, and others.",
         "link": "https://github.com/kevinkarnani/SurveyTestGenerator"
-    },
-    {
-        "title": "Grocery List Referencer",
-        "imgPath": "glr.png",
-        "description": "A CRUD application that lets the user create Grocery shopping lists and get updates on in store availability of items featuring a React.js front-end and Google Firebase backend.",
-        "link": "https://github.com/kevinkarnani/GroceryListReferencer"
     },
     {
         "title": "Decisions Of The Damned",
